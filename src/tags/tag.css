@@ -1,0 +1,64 @@
+.tag-card {
+    width: 100%;
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left:5px;
+}
+
+.tags-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.tag {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Example colors, feel free to adjust */
+.tag:nth-child(2n) {
+    background-color: #33FF57; /* Bright green */
+}
+
+.tag:nth-child(3n) {
+    background-color: #3357FF; /* Bright blue */
+}
+
+.tag:nth-child(4n) {
+    background-color: #F5A623; /* Vivid orange */
+}
+
+.tag:nth-child(5n) {
+    background-color: #9B59B6; /* Soft purple */
+}
+
+.tag:nth-child(6n) {
+    background-color: #E74C3C; /* Rich red */
+}
+
+.tag:nth-child(7n) {
+    background-color: #1ABC9C; /* Fresh teal */
+}
+
+.tag:nth-child(8n) {
+    background-color: #E67E22; /* Bright orange */
+}
+
+.tag:nth-child(9n) {
+    background-color: #F1C40F; /* Sunny yellow */
+}
+
+.tag:nth-child(10n) {
+    background-color: #2980B9; /* Deep blue */
+}
+
+.tag:hover {
+    transform: scale(1.1);
+}

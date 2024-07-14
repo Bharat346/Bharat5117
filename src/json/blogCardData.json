@@ -1,0 +1,14 @@
+[
+    {
+        "id" : 1,
+        "title" : "Image Processing",
+        "time" : "July 05,2024",
+        "content" : "In this article you learn about what is digital images and how computer manipulate them due to you all can filter , crop , adjust images. we use JavaScript but you can use any Programming language."
+    },
+    {
+        "id" : 2,
+        "title" : "Custom QR-code Creation",
+        "time" : "July 13,2024",
+        "content" : "In this article you learn about Three things - i) What is Qr code and How it is work. ii) How to create Qr code interface using Js. iii) How to Encode data into Qr and what is Error Correction Levels. To learn More read Now."
+    }
+]
